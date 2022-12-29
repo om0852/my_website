@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my_website/static/css/main.4d7c1405.css",
+    "main.js": "/my_website/static/js/main.1b2ab2a6.js",
+    "static/js/787.63ea07d3.chunk.js": "/my_website/static/js/787.63ea07d3.chunk.js",
+    "static/media/17973908.jpg": "/my_website/static/media/17973908.f42ecb4bc8e4c4ed24be.jpg",
+    "static/media/netflix.png": "/my_website/static/media/netflix.1cf4f63299b2731eeb95.png",
+    "static/media/disney.png": "/my_website/static/media/disney.6b451fb75507b05514cb.png",
+    "static/media/youtube.png": "/my_website/static/media/youtube.1dd7461bcdd969d2e8e5.png",
+    "static/media/ola.png": "/my_website/static/media/ola.05884d5b24d1896061ae.png",
+    "static/media/omsalunke.jpg": "/my_website/static/media/omsalunke.3242d35e1cb9bf8d3ba0.jpg",
+    "static/media/logo.png": "/my_website/static/media/logo.cc45da2f670aa16721db.png",
+    "static/media/profile.png": "/my_website/static/media/profile.c54e519388d9e06591fb.png",
+    "index.html": "/my_website/index.html",
+    "main.4d7c1405.css.map": "/my_website/static/css/main.4d7c1405.css.map",
+    "main.1b2ab2a6.js.map": "/my_website/static/js/main.1b2ab2a6.js.map",
+    "787.63ea07d3.chunk.js.map": "/my_website/static/js/787.63ea07d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4d7c1405.css",
+    "static/js/main.1b2ab2a6.js"
+  ]
+}
