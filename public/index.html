@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="Web site created using create-react-app"
+    />
+    <script src="https://kit.fontawesome.com/a4e77060ce.js" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+      <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>om salunke</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  
+    <script>
+      window.onload = function () {
+    let nav_option=document.getElementsByClassName("nav_option")[0];
+    let sidebar=document.getElementsByClassName("sidebar")[0];
+    sidebar.addEventListener("click",()=>{
+            console.log("clicked");
+            nav_option.classList.toggle("nav_option_click");
+            // if(sidebar.innerHTML===`<i className="fa-solid fa-bars fa-1.3x"></i>`){
+            // sidebar.innerHTML=`<i className="fa-solid fa-xmark"></i>`
+            // }
+            // else{
+            //     sidebar.innerHTML=`<i className="fa-solid fa-bars fa-1.3x"></i>`
+            // }
+    })
+
+let h1= document.getElementById('skill_name_span');
+let name =["frontend developer","ui designer","web developer"];
+let countletter=0;
+let count =0;
+
+update();
+function update()
+{   countletter++;
+    h1.innerText =" "+name[count].slice(0,countletter);
+    if(countletter===name[count].length)
+    {
+        count++
+        countletter=0;
+    }
+    if (count===name.length) {
+        count=0;
+    }
+    
+    setTimeout(update,400);
+}
+}
+      </script>
+  </body>
+</html>
